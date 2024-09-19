@@ -1,5 +1,3 @@
-#####Conversion constants####
-
 pounds_per_talent = 20
 lots_per_pound = 32
 grams_per_lot = 13.3
@@ -14,5 +12,4 @@ total_grams = total_lots * grams_per_lot
 kilograms = int(total_grams // 1000)
 grams = total_grams % 1000
 
-# Display the result
 print(f"\nThe weight in modern units:\n{kilograms} kilograms and {grams:.2f} grams.")
